@@ -1,0 +1,75 @@
+
+.carousel-inner {
+  background: black;
+  .item {
+    transition-property: opacity;
+  }
+
+  .item,
+  .active.left,
+  .active.right {
+    opacity: 0.5;
+  }
+
+  .active,
+  .next.left,
+  .prev.right {
+    opacity: 1;
+  }
+
+  .next,
+  .prev,
+  .active.left,
+  .active.right {
+    left: 0;
+    transform: translate3d(0, 0, 0);
+  }
+}
+.carousel-caption {
+  text-align: center;
+  left: 10%;
+  right: 10%;
+  bottom: 20%;
+  padding-bottom:0;
+  h3 {
+    font-size:24px;
+    line-height:2em;
+  }
+  p {
+    @media #{$mobile} {
+      line-height: 14px;
+    }
+  }
+  .btn {
+    @media #{$mobile} {
+      padding: 5px 10px;
+      font-size: 14px;
+      line-height: 14px;
+    }
+  }
+  @media #{$mobile} {
+    h3 {
+      font-size:16px;
+      line-height:1.2em;
+    }
+  }
+  @media #{$tablet} {
+    h3 {
+      font-size: 18px;
+      line-height: 1.6em;
+    }
+  }
+  @media #{$normal} {
+  }
+  @media #{$wide} {
+    h3 {
+      font-size: 24px;
+      line-height: 2em;
+    }
+    .button {
+
+    }
+  }
+}
+
+.

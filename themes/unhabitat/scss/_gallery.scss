@@ -1,0 +1,17 @@
+.view-gallery {
+  .views-row {
+    margin-bottom:30px;
+  }
+  .gallery-thumb {
+    .gallery-caption {
+      position: absolute;
+      bottom: 0;
+      font-size: 14px;
+      background: rgba(17, 17, 17, .5);
+      color: #fff;
+      p {
+        padding: 4px;
+      }
+    }
+  }
+}

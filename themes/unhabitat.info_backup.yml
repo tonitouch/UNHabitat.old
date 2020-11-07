@@ -1,0 +1,25 @@
+core: 8.x
+type: theme
+base theme: bootstrap
+
+name: 'UNHABITAT Old Theme'
+description: 'This is a UNHabitat Theme for 2020.'
+package: 'Bootstrap'
+
+regions:
+  media_banner: 'Media Banner'
+  navigation_collapsible: 'Navigation (Collapsible)'
+  help: 'Help'
+  content: 'Content'
+  sidebar_second: 'Secondary'
+  highlighted: 'Highlighted'
+  footer_left: 'Footer left'
+  footer_middle: 'Footer middle'
+  footer_right: 'Footer right'
+  footer_bottom: 'Footer Bottom'
+  page_top: 'Page top'
+  page_bottom: 'Page bottom'
+
+libraries-extend:
+  bootstrap/framework:
+    - unhabitat/framework

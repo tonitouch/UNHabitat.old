@@ -1,0 +1,48 @@
+.carousel-caption {
+  text-align: left;
+  padding-bottom:0;
+  left: 2.5%;
+  h3 {
+    font-size:24px;
+    line-height:2em;
+  }
+  p {
+    @media #{$mobile} {
+      line-height: 14px;
+    }
+  }
+  .btn {
+    @media #{$mobile} {
+      padding: 5px 10px;
+      font-size: 14px;
+      line-height: 14px;
+    }
+  }
+  @media #{$mobile} {
+    right: 0;
+    h3 {
+      font-size:16px;
+      line-height:1.2em;
+    }
+  }
+  @media #{$tablet} {
+    right: 35%;
+    h3 {
+      font-size: 18px;
+      line-height: 1.6em;
+    }
+  }
+  @media #{$normal} {
+    right: 35%;
+  }
+  @media #{$wide} {
+    right: 50%;
+    h3 {
+      font-size: 24px;
+      line-height: 2em;
+    }
+    .button {
+
+    }
+  }
+}

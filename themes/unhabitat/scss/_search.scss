@@ -1,0 +1,68 @@
+
+.navbar #views-exposed-form-solr-search-content-page-1 {
+  float:right;
+  position:relative;
+  margin: 21px 0 0 40px;
+  padding:0;
+  @media #{$mobile} {
+    float: none;
+    margin-bottom: 20px;
+  }
+  input[type=text] {
+    position:absolute;
+    z-index:1;
+    top:7px;
+    right:0;
+    width: 30px;
+    text-align:center;
+    padding-left:30px;
+    box-sizing: border-box;
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    box-shadow: none;
+    -moz-transition: all 0.2s ease-in-out;
+    -webkit-transition: all 0.2s ease-in-out;
+    transition: all 0.2s ease-in-out;
+  }
+  input[type=text]:focus,
+  input[type=text]:hover {
+    width: 450px;
+    border-bottom:1px solid white;
+    padding-left:0;
+  }
+  .glyphicon {
+    position: absolute;
+    z-index:2;
+    pointer-events: none;
+    right: 10px;
+    top: 15px;
+    font-size: 18px;
+    line-height: 18px;
+    color:white;
+  }
+}
+.navbar-form {
+  -webkit-box-shadow: none;
+  -moz-box-shadow: none;
+  box-shadow: none;
+}
+.dimmed {
+  filter: blur(3px);
+  opacity: 0;
+  -moz-transition: all 0.2s ease-in-out;
+  -webkit-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+}
+
+.form-inline .form-group.form-actions {
+  margin:0 0 0 20px;
+}
+.bef-exposed-form {
+  .form--inline {
+    text-align:center;
+    > .form-item {
+      float:none;
+      display: inline-block;
+    }
+  }
+}

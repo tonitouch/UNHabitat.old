@@ -1,0 +1,51 @@
+nav.menu-blocks {
+  img {
+    display:none;
+  }
+}
+.path-frontpage nav.menu-blocks {
+  background:white;
+  img {
+    display:block;
+  }
+  .underlay {
+    padding:0 15px;
+  }
+  h2 {
+    border-top: 10px solid;
+    border-color: #1B94D2;
+    font-size: 22px;
+    text-transform: uppercase;
+    padding: 15px 0 0 15px;
+    margin-top:0;
+  }
+  &.about-unon h2 {
+    border-color:#EB8C31;
+  }
+  &.whats-happening h2 {
+    border-color:#C6543B;
+  }
+  ul {
+    padding:0 15px 15px 15px;
+  }
+  .nav > li > a {
+    padding: 5px 5px 5px 0;
+    &::before {
+      content:"\e250";
+      font-family: 'Glyphicons Halflings';
+      font-size: 10px;
+      padding-right: 5px;
+    }
+    &:hover,
+    &:focus {
+      background:none;
+    }
+  }
+}
+.block-fixed-block-content {
+  h2.block-title {
+    margin-top: 16px;
+    border-top: none;
+    text-transform: none;
+  }
+}

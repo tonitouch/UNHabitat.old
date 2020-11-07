@@ -1,0 +1,46 @@
+.file {
+  font-size: 16px;
+  font-weight: 400;
+  margin:0;
+  > span {
+    background: #fff;
+    color: #337ab7;
+    border:none;
+    &:first-child,
+    &:last-child {
+      border:none
+    }
+  }
+  .file-icon {
+    display:inline-block;
+    padding-left:0;
+  }
+  .file-link {
+    display:inline-block;
+    width:auto;
+  }
+  .file-size {
+    display:inline-block;
+    padding-right:0;
+    display:none;
+  }
+  .glyphicon-file::before {
+    display: inline-flex;
+    width: 15px;
+  }
+  &.file--mime-application-pdf {
+    .glyphicon-file::before {
+      content: url(../images/file-adobe.png);
+    }
+  }
+  &.file--x-office-spreadsheet {
+    .glyphicon-file::before {
+      content: url(../images/file-excel.png);
+    }
+  }
+  &.file--x-office-document {
+    .glyphicon-file::before {
+      content: url(../images/file-word.png);
+    }
+  }
+}

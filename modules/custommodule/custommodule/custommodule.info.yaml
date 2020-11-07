@@ -1,0 +1,6 @@
+name: UNHabitat custom module 
+type: module
+description: 'THis is a custom module for UNhabiat'
+package: Custom
+version: 8.x
+core: 8.x

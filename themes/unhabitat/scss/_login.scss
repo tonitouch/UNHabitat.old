@@ -1,0 +1,85 @@
+@media (max-width: $screen-xs-max) {
+  #auth_box {
+    width: 90%;
+    margin-top:50px;
+  }
+}
+@media (min-width: $screen-sm-min) {
+  #auth_box {
+    width:50%;
+  }
+}
+body.login-pages,
+body.path-tfa {
+  background-color: #5B92E5;
+  background: rgb(91,146,229);
+  background: radial-gradient(circle, rgba(91,146,229,1) 0%, rgba(35,83,121,1) 100%);
+}
+#auth_box {
+  max-width:550px;
+  text-align:center;
+  margin: 100px auto 0 auto;
+  padding: 0;
+  font-family: inherit;
+  border-radius: 3px;
+  background: #fff;
+  -webkit-box-shadow: 0 0 3px 1px #ccc;
+  -moz-box-shadow: 0 0 3px 1px #ccc;
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+  #top_part {
+    padding:25px 0;
+    background:#4B515D;
+  }
+  #middle_part {
+    padding: 15px 25px;
+    overflow: hidden;
+    border:none;
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    box-shadow: none;
+  }
+  #bottom_part {
+    padding:15px 0 50px;
+    .panel-body {
+      text-align:justify;
+    }
+  }
+  .region-highlighted {
+    display: none;
+  }
+  h1#the_logo {
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    img {
+      height: 80px;
+    }
+  }
+  .page-header {
+    text-transform: uppercase;
+    font-size: 20px;
+  }
+  nav.tabs {
+    display: none;
+  }
+  input[type="text"],
+  input[type="password"] {
+    width: 100%;
+    border: 1px #ccc solid;
+    border-radius: 3px;
+    padding: 5px;
+    font-size: 15px;
+    text-align: center;
+  }
+  .password_link {
+  }
+  .back_link {
+    padding: 20px;
+  }
+}
+.tfa-entry-form ul {
+  list-style: none;
+}
+#edit-code--description.help-block {
+  text-align: center;
+}
